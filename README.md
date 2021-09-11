@@ -1,9 +1,9 @@
-# name (v - Latest)
+# BetterVanilla (v0.0.1 - Latest)
 Desc
 
 ![preview]()
 
-## How To Install name?
+## How To Install BetterVanilla?
 
 Its Simple!
 
@@ -12,7 +12,7 @@ For **Powercord** Users:
 1. Open CMD & Type:
 
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/name
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/BetterVanilla
 ```
 
 For **Betterdiscord** Users:
