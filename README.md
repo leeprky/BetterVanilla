@@ -17,7 +17,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Better
 
 For **Betterdiscord** Users:
 
-1. CLick > [Download]()
+1. CLick > [Download](https://raw.githubusercontent.com/leeprky/BetterVanilla/main/source/support/betterdiscord/BetterVanilla.theme.css)
 2. Download Raw
 
 For **Goosemod** Users:
