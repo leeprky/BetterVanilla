@@ -4,9 +4,9 @@
 .theme-dark {
 
     /* Main Colours - Try Keep These The Same */
-    --main-colour: 70, 71, 117; /* RGB ONLY */
-    --main-colour2: #464775; /* HEX ONLY */
-    --main-colour3: 239; /* HSL ONLY */
+    --main-colour: 142, 163, 255; /* RGB ONLY */
+    --main-colour2: #8EA3FF; /* HEX ONLY */
+    --main-colour3: 229; /* HSL ONLY */
   
     /* Green Colours */
     --green-color: var(--alt-color2); /* HEX ONLY */
@@ -18,7 +18,7 @@
     --green-slider-dot: #fff;
   
     /* Status/Other Things Colours */
-    --purple: #464775;
+    --purple: #8EA3FF;
     --red: #B1273E;
     --call-button-red: #AF243D;
     --yellow: #FDB913;
@@ -26,35 +26,33 @@
   
     /* Header Colours */
     --headers: #FFFFFF; /* */
-    --headers-secondary: #c7c7c7;
+    --headers-secondary: #b9bbbe;
   
     --chatbox-colour: var(--background-secondary);
-    --messages-colour: #333333;
     --mentioned: rgba(var(--alt-color), 0.4);
     --mentioned-hover: rgba(var(--alt-color), 0.2);
   
     /* Text Colours */
-    --namesusernames: #F0F0F0;
-    --text: #F0F0F0;
+    --namesusernames: #FFFFFF;
+    --text: #dcddde;
     --text-positive1: var(--green-color);
-    --muted: #646262;
+    --muted: #72767d;
     --links: var(--alt-color2);
-    --links-from-self: #989bff;
     
     /* Interative Buttons */
-    --button-interactive: #F0F0F0;
-    --button-interactive-hover: #F0F0F0;
-    --button-interactive-active: #fefeff;
-    --button-interactive-muted: #585858;
+    --button-interactive: #b9bbbe;
+    --button-interactive-hover: #b9bbbe;
+    --button-interactive-active: #FFFFFF;
+    --button-interactive-muted: #4f545c;
   
     /* Backgrounds */
-    --main-background: #1f1f1f;
-    --main-background-alternative: #111111;
-    --secondary-background: #141414;
-    --secondary-background-alternative: #0a0a0a;
-    --tertiary: #171717;
+    --main-background: #36393f;
+    --main-background-alternative: #36393f;
+    --secondary-background: #2f3136;
+    --secondary-background-alternative: #292b2f;
+    --tertiary: #202225;
     --accent: var(--alt-color2);
-    --floating: #161616;
+    --floating: #18191c;
   
     /* Hovering Colours */
     --main-hover: rgba(var(--alt-color), 0.2);
@@ -70,8 +68,8 @@
     --rounding: 3px;
   
     /* Infos */
-    --info-warning: var(--red);
-    --help-warning: var(--red);
+    --info-warning: var(--alt-color2);
+    --help-warning: var(--alt-color2);
     --help-info: var(--alt-color2);
     --radio-group-dot: var(--alt-color);
   
@@ -83,12 +81,12 @@
   
     /* Scollbars */
     --scrollbars: flex; /* Flex To See Scrollbars / None For None */
-    --scrollbar-small: #797979;
+    --scrollbar-small: #383C41;
     --scrollbar-small-track: transparent;
-    --scrollbar-large-thumb: #797979;
-    --scrollbar-large-track: transparent;
-    --scrollbar-small-scrollbar-color: #6c6c6c;
-    --scrollbar-small-scrollbar-color-track: transparent;
+    --scrollbar-large-thumb: #383C41;
+    --scrollbar-large-track: #4E565D;
+    --scrollbar-small-scrollbar-color: #383C41;
+    --scrollbar-small-scrollbar-color-track: #4E565D;
   
     /* Button Gradients */
     --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
@@ -227,5 +225,34 @@
   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
   */
   
-  :root {--outdated_bettervanilla-001: none !important; --version: "0.0.1 (BETA)" !important; --build: "001" !important}
-  
+:root {--outdated_bettervanilla-001: none !important; --version: "0.0.1 (BETA)" !important; --build: "001" !important}
+
+.withFrame-haYltI {
+  height: 34px;
+  margin-top: 4px;
+}
+.titleBar-AC4pGV {
+  z-index: 3001;
+  -webkit-app-region: drag;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.winButton-iRh8-Z {
+  transform: scale(1);
+  height: 38px;
+  width: 39px;
+  margin-top: 0px;
+}
+
+.wordmark-2iDDfm:after {
+  color: rgb(247, 245, 245);
+  content: "Discord";
+  font-size: 14.5px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 12px;
+  left: 13px;
+}
+.wordmark-2iDDfm > svg {width: 0px;}
