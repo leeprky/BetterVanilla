@@ -1,7 +1,8 @@
 # BetterVanilla (v0.0.1 - Latest)
 A Better Default Discord Vanilla Theme
 
-![preview]()
+![Screenshot 2021-12-21 162653](https://user-images.githubusercontent.com/71296232/146964531-89341f4b-affe-4e38-bb5c-5ba34390d692.png)
+
 
 ## How To Install BetterVanilla?
 
